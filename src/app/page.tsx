@@ -90,7 +90,7 @@ const Page = () => {
         <section className="even:bg-primary/[0.025] odd:bg-primary/5">
           <div className="container min-h-[50svh] py-24 flex flex-col justify-center items-center gap-8">
             <h2 className={typographyVariants({ variant: "h2" })}>Features</h2>
-            <ul className="grid grid-cols-2 gap-6">
+            <ul className="grid lg:grid-cols-2 gap-6">
               {features.map((feature, index) => (
                 <li
                   key={index}
@@ -110,7 +110,7 @@ const Page = () => {
             <h2 className={typographyVariants({ variant: "h2" })}>
               Testimonials
             </h2>
-            <ul className="grid grid-cols-3 gap-6">
+            <ul className="grid lg:grid-cols-3 gap-6">
               {testimonials.map((testimonial, index) => (
                 <li
                   key={index}
@@ -168,7 +168,7 @@ const Page = () => {
           </div>
         </section>
         <footer>
-          <div className="container min-h-[30svh] flex flex-col justify-center items-center gap-8">
+          <div className="container min-h-[30svh] py-24 flex flex-col justify-center items-center gap-8">
             <p className="text-3xl font-light">
               Join the Slip n Slide Stairs revolution - Where every step is a
               celebration!
