@@ -111,7 +111,7 @@ const Page = () => {
             {testimonials.map((testimonial, index) => (
               <li
                 key={index}
-                className="border-2 rounded-2xl flex flex-col gap-3 group"
+                className="border-2 rounded-2xl flex flex-col gap-6 group"
               >
                 <div className="p-6 pb-0 flex flex-col gap-6 grow">
                   <QuoteIcon
