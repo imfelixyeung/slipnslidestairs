@@ -47,11 +47,13 @@ function ListOfProducts() {
                   {product.description}
                 </p>
               </div>
-              <div className="flex items-end grow mt-3">
-                <h4 className="font-semibold text-lg md:text-xl">
-                  ${product.price}
-                </h4>
-              </div>
+              {product.price && (
+                <div className="flex items-end grow mt-3">
+                  <h4 className="font-semibold text-lg md:text-xl">
+                    ${product.price}
+                  </h4>
+                </div>
+              )}
             </div>
           </div>
         ))}

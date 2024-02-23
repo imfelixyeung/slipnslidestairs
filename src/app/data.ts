@@ -126,4 +126,11 @@ export const products = [
     image:
       "/assets/images/products/Classic 3D Realism_SWO7QHWgSW-AOYdqbXD11w_Product Placement Image, Custom Wonderland, Unleash your creativity with our Custom Wonderland Slip n Slide Stairs. Work with our design team to create a personalized staircase adventure that perfec.png",
   },
+  {
+    title: "Coming Soon",
+    description:
+      "We're constantly innovating to bring you the latest in staircase excitement. Stay tuned for our upcoming models, designed to take your home adventure to the next level.",
+    price: null,
+    image: "/assets/images/undraw/undraw_questions_re_1fy7.png",
+  },
 ];
