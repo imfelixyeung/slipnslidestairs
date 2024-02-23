@@ -24,6 +24,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://sss.feli.page",
   },
+  metadataBase: new URL("https://sss.feli.page/"),
 };
 
 export default function RootLayout({
