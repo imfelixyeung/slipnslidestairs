@@ -131,6 +131,6 @@ export const products = [
     description:
       "We're constantly innovating to bring you the latest in staircase excitement. Stay tuned for our upcoming models, designed to take your home adventure to the next level.",
     price: null,
-    image: "/assets/images/undraw/undraw_questions_re_1fy7.png",
+    image: "/assets/images/undraw/undraw_Questions_re_1fy7.png",
   },
 ];
