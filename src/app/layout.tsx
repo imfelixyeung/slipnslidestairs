@@ -55,14 +55,23 @@ export default function RootLayout({
             </div>
             <nav className="py-3">
               <ul className="flex flex-wrap gap-3">
-                <li>About Us</li>
-                <li>Get a Quote</li>
-                <li>Shop Now</li>
+                <li>
+                  <Link href="/about">About Us</Link>
+                </li>
+                <li>
+                  <Link href="/get-quote">Get a Quote</Link>
+                </li>
+                <li>
+                  <Link href="/shop">Shop Now</Link>
+                </li>
               </ul>
               <ul className="flex flex-wrap gap-3">
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-                <li>Contact us</li>
+                <li>
+                  <Link href="/privacy">Privacy Policy</Link>
+                </li>
+                <li>
+                  <Link href="/terms">Terms & Conditions</Link>
+                </li>
               </ul>
             </nav>
             <nav className="py-3 flex flex-wrap gap-1">
