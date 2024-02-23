@@ -9,6 +9,23 @@ import { Textarea } from "@/components/ui/textarea";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { typographyVariants } from "@/components/ui/typography";
+import { Metadata } from "next";
+
+const meta = {
+  title:
+    "Get a Personalized Quote - Custom Slip n Slide Stairs for Your Unique Space",
+  description:
+    "Transform your staircase into a customized adventure with Slip n Slide Stairs! Request a personalized quote for our Custom Wonderland or any tailor-made design that suits your unique space. Our design team is ready to bring your vision to life. Elevate your home with a one-of-a-kind Slip n Slide Stairs experience. Get started today!",
+};
+
+export const metadata: Metadata = {
+  title: meta.title,
+  description: meta.description,
+  openGraph: {
+    title: meta.title,
+    description: meta.description,
+  },
+};
 
 export default function Component() {
   return (

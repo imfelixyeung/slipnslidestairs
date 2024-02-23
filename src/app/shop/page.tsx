@@ -15,9 +15,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: meta.title,
     description: meta.description,
-    type: "website",
-    locale: "en_US",
-    url: "https://sss.feli.page",
   },
 };
 
