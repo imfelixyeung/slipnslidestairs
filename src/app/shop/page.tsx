@@ -16,12 +16,8 @@ function ListOfProducts() {
             <div className="rounded-lg overflow-hidden">
               <img
                 alt={product.title}
-                className="object-cover w-full h-full max-h-80"
-                src="https://generated.vusercontent.net/placeholder.svg"
-                style={{
-                  aspectRatio: "500/500",
-                  objectFit: "cover",
-                }}
+                className="object-cover h-full max-h-80 aspect-video"
+                src={product.image}
               />
             </div>
             <div className="flex-1 py-2 flex flex-col">
@@ -32,7 +28,9 @@ function ListOfProducts() {
                 </p>
               </div>
               <div className="flex items-end grow mt-3">
-                <h4 className="font-semibold text-lg md:text-xl">$149.99</h4>
+                <h4 className="font-semibold text-lg md:text-xl">
+                  ${product.price}
+                </h4>
               </div>
             </div>
           </div>
