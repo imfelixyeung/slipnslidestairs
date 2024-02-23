@@ -1,5 +1,25 @@
 import { typographyVariants } from "@/components/ui/typography";
 import { products } from "../data";
+import { Metadata } from "next";
+
+const meta = {
+  title:
+    "Explore Our Exciting Collection - Slip n Slide Stairs Products for Every Adventure",
+  description:
+    "Discover a world of staircase excitement with Slip n Slide Stairs! Explore our diverse collection, including the Classic Joyful Descent, Fitness Challenge Ascend, Sleek Modern Elegance, Kids' Adventure Zone, Extreme Thrill Seeker, and more. Transform your home with our innovative designs, suitable for all ages. Find your perfect staircase adventure starting at just $699.99. Elevate your everyday with Slip n Slide Stairs today!",
+};
+
+export const metadata: Metadata = {
+  title: meta.title,
+  description: meta.description,
+  openGraph: {
+    title: meta.title,
+    description: meta.description,
+    type: "website",
+    locale: "en_US",
+    url: "https://sss.feli.page",
+  },
+};
 
 /**
  * modified
