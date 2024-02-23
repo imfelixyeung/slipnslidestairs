@@ -73,7 +73,7 @@ const Page = () => {
         </div>
       </header>
       <section className="even:bg-primary/[0.025] odd:bg-primary/5">
-        <div className="container min-h-[50svh] py-24 flex flex-col justify-center items-center gap-8">
+        <div className="container min-h-[50svh] py-24 flex flex-col justify-center md:items-center gap-8">
           <h2 className={typographyVariants({ variant: "h2" })}>About Us</h2>
           <p className="text-2xl">
             At Slip n Slide Stairs, we believe in turning everyday moments into
@@ -85,7 +85,7 @@ const Page = () => {
         </div>
       </section>
       <section className="even:bg-primary/[0.025] odd:bg-primary/5">
-        <div className="container min-h-[50svh] py-24 flex flex-col justify-center items-center gap-8">
+        <div className="container min-h-[50svh] py-24 flex flex-col justify-center md:items-center gap-8">
           <h2 className={typographyVariants({ variant: "h2" })}>Features</h2>
           <ul className="grid lg:grid-cols-2 gap-6">
             {features.map((feature, index) => (
@@ -103,11 +103,11 @@ const Page = () => {
         </div>
       </section>
       <section className="even:bg-primary/[0.025] odd:bg-primary/5">
-        <div className="container min-h-[50svh] py-24 flex flex-col justify-center items-center gap-8">
+        <div className="container min-h-[50svh] py-24 flex flex-col justify-center md:items-center gap-8">
           <h2 className={typographyVariants({ variant: "h2" })}>
             Testimonials
           </h2>
-          <ul className="grid lg:grid-cols-3 gap-6">
+          <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {testimonials.map((testimonial, index) => (
               <li
                 key={index}
@@ -139,7 +139,7 @@ const Page = () => {
         </div>
       </section>
       <section className="even:bg-primary/[0.025] odd:bg-primary/5">
-        <div className="container min-h-[50svh] py-24 flex flex-col justify-center items-center gap-8">
+        <div className="container min-h-[50svh] py-24 flex flex-col justify-center md:items-center gap-8">
           <h2 className={typographyVariants({ variant: "h2" })}>Get a Quote</h2>
           <p className="text-xl">
             Fill out the form below to receive a personalized quote for Slip n
@@ -151,7 +151,7 @@ const Page = () => {
         </div>
       </section>
       <section className="even:bg-primary/[0.025] odd:bg-primary/5">
-        <div className="container min-h-[50svh] flex flex-col justify-center items-center gap-8">
+        <div className="container min-h-[50svh] flex flex-col justify-center md:items-center gap-8">
           <h2 className={typographyVariants({ variant: "h2" })}>Shop Now</h2>
           <p className="text-xl">
             Explore our collection and order your Slip n Slide Stairs today.
@@ -161,7 +161,7 @@ const Page = () => {
         </div>
       </section>
       <footer>
-        <div className="container min-h-[30svh] py-24 flex flex-col justify-center items-center gap-8">
+        <div className="container min-h-[30svh] py-24 flex flex-col justify-center md:items-center gap-8">
           <p className="text-3xl font-light">
             Join the Slip n Slide Stairs revolution - Where every step is a
             celebration!
