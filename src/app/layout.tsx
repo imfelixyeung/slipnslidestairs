@@ -81,7 +81,7 @@ export default function RootLayout({
               </Link>
             </nav>
             <p className="text-muted-foreground py-2">
-              &copy; 2023 Slip n Slide Stairs. All rights reserved.
+              &copy; 2024 Slip n Slide Stairs. All rights reserved.
             </p>
           </footer>
         </div>
