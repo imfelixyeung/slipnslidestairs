@@ -29,8 +29,8 @@ const Page = () => {
   return (
     <>
       <header className="">
-        <div className="container min-h-[80svh] py-24 flex gap-16 items-center sm:items-start lg:items-center justify-center flex-col-reverse lg:flex-row">
-          <div className="flex flex-col justify-center items-center sm:items-start gap-8">
+        <div className="container min-h-[80svh] py-24 flex gap-16 items-center sm:items-start lg:items-center justify-center flex-col-reverse lg:flex-row relative">
+          <div className="flex flex-col justify-center items-center sm:items-start gap-8 text-gray-100">
             <div className="flex flex-col items-center sm:items-start">
               <h1>
                 <Balancer
@@ -66,7 +66,7 @@ const Page = () => {
             />
           </div>
           <Image
-            className="object-cover rounded-3xl max-w-xs sm:max-w-md h-full"
+            className="object-cover h-[calc(100%-3rem)] rounded-3xl absolute inset-x-0 inset-y-6 -z-[1] brightness-50"
             src={heroImage}
             alt="Hero Image"
           />
