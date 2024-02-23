@@ -1,6 +1,7 @@
 import { typographyVariants } from "@/components/ui/typography";
 import { products } from "../data";
 import { Metadata } from "next";
+import Image from "next/image";
 
 const meta = {
   title:
@@ -31,10 +32,12 @@ function ListOfProducts() {
         {products.map((product, index) => (
           <div className="flex flex-col" key={index}>
             <div className="rounded-lg overflow-hidden">
-              <img
+              <Image
                 alt={product.title}
                 className="object-cover h-full max-h-80 aspect-video"
                 src={product.image}
+                width={1824}
+                height={1024}
               />
             </div>
             <div className="flex-1 py-2 flex flex-col">
